@@ -6,6 +6,7 @@ public class ExGenTarget : MonoBehaviour
 {
     public GameObject Target;                                                          //아이템 박스의 정의 
     public float checkTime;                                                            //시간 검사할 변수 선언
+
     void Update()
     {
         checkTime += Time.deltaTime;                                                    //프레임 시간을 쌓아르서 초를 검사한다.
