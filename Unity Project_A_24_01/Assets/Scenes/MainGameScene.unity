@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 1094887054}
   m_Layer: 0
   m_Name: GenObject
-  m_TagString: GameManager
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -774,7 +774,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b4198d2257222b46b519a3ea5536a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CircleObject: {fileID: 8258470098222804240, guid: e9bc5bd2c16f963438eee75283122414, type: 3}
+  circleObject:
+  - {fileID: 8258470098222804240, guid: e9bc5bd2c16f963438eee75283122414, type: 3}
+  - {fileID: 8258470098222804240, guid: 3747af6dc2c77c946980a6f0918d8e1c, type: 3}
+  - {fileID: 8258470098222804240, guid: 3f32bfeeae246644b88866f2e1e1761c, type: 3}
+  - {fileID: 8258470098222804240, guid: 78a3eb45979be7b4fbc0abe41ec2db61, type: 3}
+  - {fileID: 8258470098222804240, guid: 1cebb1eeea50bb7439083b4a9308e64f, type: 3}
+  - {fileID: 8258470098222804240, guid: 8152ce5dfd9d77c42ad27b592e6a9e54, type: 3}
+  - {fileID: 8258470098222804240, guid: 6ce2c6d0e8c95234da6aace6ffafb764, type: 3}
   genTransform: {fileID: 1094887054}
   timCheck: 0
   isGen: 0
